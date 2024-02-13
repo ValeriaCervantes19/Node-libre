@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Websockets chat</title>
+<link href="./styles.css" rel="stylesheet"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.4/socket.io.min.js"></script>
+</head>
+<body>
+    <div id="output"></div>
+    <h1 id="pagetitle">Linea del tiempo</h1>
+    <div id="contenedor">
+        <p>Deja tu nombre y mensaje</p>
+        <input id="handle" type="text" placeholder="Nombre" />
+        <input id="message" type="text" placeholder="Mensaje" />
+        <button id="send">Enviar</button>
+    </div>
+    <script src="./chat.js"></script>
+</body>
+</html>
